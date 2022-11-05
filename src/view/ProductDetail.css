@@ -1,0 +1,47 @@
+.page-wrapper {
+    padding: 10px;
+}
+.final-price {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+.discount-price {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #ccc;
+}
+.discount-rate {
+    color: red;
+}
+.product-title {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+.product-seller {
+    color: #ccc;
+}
+
+.product-seller .seller-name {
+    color: #2db7f5;
+}
+.related-product {
+    margin-top: 20px;
+}
+.related-product .title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.related-product .list-product {
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
