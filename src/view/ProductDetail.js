@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from "antd";
 import "./ProductDetail.css";
 import productData from "../data/data.json";
-import ProductListItem from "./ProductListItem";
+import ProductListItem from "./ProductListItem/ProductListItem";
 import { formatNumber } from "../helper/formatNumber";
 function ProductDetail() {
   const data = productData;

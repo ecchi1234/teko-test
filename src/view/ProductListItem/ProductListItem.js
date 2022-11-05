@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Image } from "antd";
-import { formatNumber } from "../helper/formatNumber";
+import { formatNumber } from "../../helper/formatNumber";
 import "./ProductListItem.css";
 function ProductListItem({
   productImage,
